@@ -1,0 +1,1 @@
+/usr/bin/g++   -fopenmp -g   CMakeFiles/stitchingfaster.dir/main.cpp.o  -o stitchingfaster 
