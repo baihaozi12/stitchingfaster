@@ -88,7 +88,7 @@ void init_config() {
 int main() {
     TotalTimerGlobalGuard _g;
     srand(time(NULL));
-//    init_config();
+    init_config();
 
     std::cout << "Hello, World!" << std::endl;
     vector<string> imgs = {"/home/baihao/jpg/1111111/ppt/1.jpg", "/home/baihao/jpg/1111111/ppt/2.jpg"};

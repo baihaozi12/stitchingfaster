@@ -144,7 +144,220 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/common/common.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/brief.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/brief.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/dist.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/dist.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/dog.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/dog.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/extrema.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/extrema.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/feature.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/feature.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/gaussian.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/gaussian.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/matcher.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/matcher.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/orientation.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/orientation.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/sift.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/sift.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/color.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/color.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/config.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/config.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/debugutils.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/debugutils.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/geometry.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/imgio.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/imgproc.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/imgproc.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/kdtree.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/kdtree.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/mat.h">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/matrix.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/matrix.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/planedrawer.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/planedrawer.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/polygon.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/polygon.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/timer.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/timer.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/utils.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/utils.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/main.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/blender.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/blender.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/blender.hh.gch">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/camera.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/camera.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/camera_estimator.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/camera_estimator.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/cylstitcher.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/cylstitcher.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/debug.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/homography.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/homography.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/imageref.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/incremental_bundle_adjuster.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/incremental_bundle_adjuster.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/match_info.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/multiband.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/multiband.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/projection.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcher.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcher.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcher_image.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcher_image.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcherbase.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcherbase.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/transform_estimate.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/transform_estimate.hh">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/warp.cc">
+			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/warp.hh">
 			<Option target="stitchingfaster"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/third-party/lodepng/lodepng.cc">

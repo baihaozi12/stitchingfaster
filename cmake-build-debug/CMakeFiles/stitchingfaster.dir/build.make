@@ -81,19 +81,877 @@ CMakeFiles/stitchingfaster.dir/main.cc.o.provides: CMakeFiles/stitchingfaster.di
 CMakeFiles/stitchingfaster.dir/main.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/main.cc.o
 
 
+CMakeFiles/stitchingfaster.dir/feature/brief.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/feature/brief.cc.o: ../feature/brief.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/stitchingfaster.dir/feature/brief.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/feature/brief.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/brief.cc"
+
+CMakeFiles/stitchingfaster.dir/feature/brief.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/feature/brief.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/brief.cc" > CMakeFiles/stitchingfaster.dir/feature/brief.cc.i
+
+CMakeFiles/stitchingfaster.dir/feature/brief.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/feature/brief.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/brief.cc" -o CMakeFiles/stitchingfaster.dir/feature/brief.cc.s
+
+CMakeFiles/stitchingfaster.dir/feature/brief.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/feature/brief.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/feature/brief.cc.o.provides: CMakeFiles/stitchingfaster.dir/feature/brief.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/feature/brief.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/feature/brief.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/feature/brief.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/feature/brief.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/feature/dist.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/feature/dist.cc.o: ../feature/dist.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/stitchingfaster.dir/feature/dist.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/feature/dist.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/dist.cc"
+
+CMakeFiles/stitchingfaster.dir/feature/dist.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/feature/dist.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/dist.cc" > CMakeFiles/stitchingfaster.dir/feature/dist.cc.i
+
+CMakeFiles/stitchingfaster.dir/feature/dist.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/feature/dist.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/dist.cc" -o CMakeFiles/stitchingfaster.dir/feature/dist.cc.s
+
+CMakeFiles/stitchingfaster.dir/feature/dist.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/feature/dist.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/feature/dist.cc.o.provides: CMakeFiles/stitchingfaster.dir/feature/dist.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/feature/dist.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/feature/dist.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/feature/dist.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/feature/dist.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/feature/dog.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/feature/dog.cc.o: ../feature/dog.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/stitchingfaster.dir/feature/dog.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/feature/dog.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/dog.cc"
+
+CMakeFiles/stitchingfaster.dir/feature/dog.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/feature/dog.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/dog.cc" > CMakeFiles/stitchingfaster.dir/feature/dog.cc.i
+
+CMakeFiles/stitchingfaster.dir/feature/dog.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/feature/dog.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/dog.cc" -o CMakeFiles/stitchingfaster.dir/feature/dog.cc.s
+
+CMakeFiles/stitchingfaster.dir/feature/dog.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/feature/dog.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/feature/dog.cc.o.provides: CMakeFiles/stitchingfaster.dir/feature/dog.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/feature/dog.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/feature/dog.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/feature/dog.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/feature/dog.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/feature/extrema.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/feature/extrema.cc.o: ../feature/extrema.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/stitchingfaster.dir/feature/extrema.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/feature/extrema.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/extrema.cc"
+
+CMakeFiles/stitchingfaster.dir/feature/extrema.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/feature/extrema.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/extrema.cc" > CMakeFiles/stitchingfaster.dir/feature/extrema.cc.i
+
+CMakeFiles/stitchingfaster.dir/feature/extrema.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/feature/extrema.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/extrema.cc" -o CMakeFiles/stitchingfaster.dir/feature/extrema.cc.s
+
+CMakeFiles/stitchingfaster.dir/feature/extrema.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/feature/extrema.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/feature/extrema.cc.o.provides: CMakeFiles/stitchingfaster.dir/feature/extrema.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/feature/extrema.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/feature/extrema.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/feature/extrema.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/feature/extrema.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/feature/feature.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/feature/feature.cc.o: ../feature/feature.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/stitchingfaster.dir/feature/feature.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/feature/feature.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/feature.cc"
+
+CMakeFiles/stitchingfaster.dir/feature/feature.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/feature/feature.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/feature.cc" > CMakeFiles/stitchingfaster.dir/feature/feature.cc.i
+
+CMakeFiles/stitchingfaster.dir/feature/feature.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/feature/feature.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/feature.cc" -o CMakeFiles/stitchingfaster.dir/feature/feature.cc.s
+
+CMakeFiles/stitchingfaster.dir/feature/feature.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/feature/feature.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/feature/feature.cc.o.provides: CMakeFiles/stitchingfaster.dir/feature/feature.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/feature/feature.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/feature/feature.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/feature/feature.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/feature/feature.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/feature/gaussian.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/feature/gaussian.cc.o: ../feature/gaussian.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/stitchingfaster.dir/feature/gaussian.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/feature/gaussian.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/gaussian.cc"
+
+CMakeFiles/stitchingfaster.dir/feature/gaussian.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/feature/gaussian.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/gaussian.cc" > CMakeFiles/stitchingfaster.dir/feature/gaussian.cc.i
+
+CMakeFiles/stitchingfaster.dir/feature/gaussian.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/feature/gaussian.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/gaussian.cc" -o CMakeFiles/stitchingfaster.dir/feature/gaussian.cc.s
+
+CMakeFiles/stitchingfaster.dir/feature/gaussian.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/feature/gaussian.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/feature/gaussian.cc.o.provides: CMakeFiles/stitchingfaster.dir/feature/gaussian.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/feature/gaussian.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/feature/gaussian.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/feature/gaussian.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/feature/gaussian.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/feature/matcher.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/feature/matcher.cc.o: ../feature/matcher.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/stitchingfaster.dir/feature/matcher.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/feature/matcher.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/matcher.cc"
+
+CMakeFiles/stitchingfaster.dir/feature/matcher.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/feature/matcher.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/matcher.cc" > CMakeFiles/stitchingfaster.dir/feature/matcher.cc.i
+
+CMakeFiles/stitchingfaster.dir/feature/matcher.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/feature/matcher.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/matcher.cc" -o CMakeFiles/stitchingfaster.dir/feature/matcher.cc.s
+
+CMakeFiles/stitchingfaster.dir/feature/matcher.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/feature/matcher.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/feature/matcher.cc.o.provides: CMakeFiles/stitchingfaster.dir/feature/matcher.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/feature/matcher.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/feature/matcher.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/feature/matcher.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/feature/matcher.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/feature/orientation.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/feature/orientation.cc.o: ../feature/orientation.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/stitchingfaster.dir/feature/orientation.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/feature/orientation.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/orientation.cc"
+
+CMakeFiles/stitchingfaster.dir/feature/orientation.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/feature/orientation.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/orientation.cc" > CMakeFiles/stitchingfaster.dir/feature/orientation.cc.i
+
+CMakeFiles/stitchingfaster.dir/feature/orientation.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/feature/orientation.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/orientation.cc" -o CMakeFiles/stitchingfaster.dir/feature/orientation.cc.s
+
+CMakeFiles/stitchingfaster.dir/feature/orientation.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/feature/orientation.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/feature/orientation.cc.o.provides: CMakeFiles/stitchingfaster.dir/feature/orientation.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/feature/orientation.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/feature/orientation.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/feature/orientation.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/feature/orientation.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/feature/sift.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/feature/sift.cc.o: ../feature/sift.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/stitchingfaster.dir/feature/sift.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/feature/sift.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/sift.cc"
+
+CMakeFiles/stitchingfaster.dir/feature/sift.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/feature/sift.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/sift.cc" > CMakeFiles/stitchingfaster.dir/feature/sift.cc.i
+
+CMakeFiles/stitchingfaster.dir/feature/sift.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/feature/sift.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/sift.cc" -o CMakeFiles/stitchingfaster.dir/feature/sift.cc.s
+
+CMakeFiles/stitchingfaster.dir/feature/sift.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/feature/sift.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/feature/sift.cc.o.provides: CMakeFiles/stitchingfaster.dir/feature/sift.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/feature/sift.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/feature/sift.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/feature/sift.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/feature/sift.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/lib/color.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/lib/color.cc.o: ../lib/color.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/stitchingfaster.dir/lib/color.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/lib/color.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/color.cc"
+
+CMakeFiles/stitchingfaster.dir/lib/color.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/lib/color.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/color.cc" > CMakeFiles/stitchingfaster.dir/lib/color.cc.i
+
+CMakeFiles/stitchingfaster.dir/lib/color.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/lib/color.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/color.cc" -o CMakeFiles/stitchingfaster.dir/lib/color.cc.s
+
+CMakeFiles/stitchingfaster.dir/lib/color.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/lib/color.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/lib/color.cc.o.provides: CMakeFiles/stitchingfaster.dir/lib/color.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/lib/color.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/lib/color.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/lib/color.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/lib/color.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/lib/config.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/lib/config.cc.o: ../lib/config.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/stitchingfaster.dir/lib/config.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/lib/config.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/config.cc"
+
+CMakeFiles/stitchingfaster.dir/lib/config.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/lib/config.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/config.cc" > CMakeFiles/stitchingfaster.dir/lib/config.cc.i
+
+CMakeFiles/stitchingfaster.dir/lib/config.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/lib/config.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/config.cc" -o CMakeFiles/stitchingfaster.dir/lib/config.cc.s
+
+CMakeFiles/stitchingfaster.dir/lib/config.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/lib/config.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/lib/config.cc.o.provides: CMakeFiles/stitchingfaster.dir/lib/config.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/lib/config.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/lib/config.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/lib/config.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/lib/config.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/lib/debugutils.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/lib/debugutils.cc.o: ../lib/debugutils.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/stitchingfaster.dir/lib/debugutils.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/lib/debugutils.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/debugutils.cc"
+
+CMakeFiles/stitchingfaster.dir/lib/debugutils.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/lib/debugutils.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/debugutils.cc" > CMakeFiles/stitchingfaster.dir/lib/debugutils.cc.i
+
+CMakeFiles/stitchingfaster.dir/lib/debugutils.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/lib/debugutils.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/debugutils.cc" -o CMakeFiles/stitchingfaster.dir/lib/debugutils.cc.s
+
+CMakeFiles/stitchingfaster.dir/lib/debugutils.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/lib/debugutils.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/lib/debugutils.cc.o.provides: CMakeFiles/stitchingfaster.dir/lib/debugutils.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/lib/debugutils.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/lib/debugutils.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/lib/debugutils.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/lib/debugutils.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/lib/imgio.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/lib/imgio.cc.o: ../lib/imgio.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/stitchingfaster.dir/lib/imgio.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/lib/imgio.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/imgio.cc"
+
+CMakeFiles/stitchingfaster.dir/lib/imgio.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/lib/imgio.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/imgio.cc" > CMakeFiles/stitchingfaster.dir/lib/imgio.cc.i
+
+CMakeFiles/stitchingfaster.dir/lib/imgio.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/lib/imgio.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/imgio.cc" -o CMakeFiles/stitchingfaster.dir/lib/imgio.cc.s
+
+CMakeFiles/stitchingfaster.dir/lib/imgio.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/lib/imgio.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/lib/imgio.cc.o.provides: CMakeFiles/stitchingfaster.dir/lib/imgio.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/lib/imgio.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/lib/imgio.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/lib/imgio.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/lib/imgio.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/lib/imgproc.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/lib/imgproc.cc.o: ../lib/imgproc.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/stitchingfaster.dir/lib/imgproc.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/lib/imgproc.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/imgproc.cc"
+
+CMakeFiles/stitchingfaster.dir/lib/imgproc.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/lib/imgproc.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/imgproc.cc" > CMakeFiles/stitchingfaster.dir/lib/imgproc.cc.i
+
+CMakeFiles/stitchingfaster.dir/lib/imgproc.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/lib/imgproc.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/imgproc.cc" -o CMakeFiles/stitchingfaster.dir/lib/imgproc.cc.s
+
+CMakeFiles/stitchingfaster.dir/lib/imgproc.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/lib/imgproc.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/lib/imgproc.cc.o.provides: CMakeFiles/stitchingfaster.dir/lib/imgproc.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/lib/imgproc.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/lib/imgproc.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/lib/imgproc.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/lib/imgproc.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/lib/kdtree.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/lib/kdtree.cc.o: ../lib/kdtree.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/stitchingfaster.dir/lib/kdtree.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/lib/kdtree.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/kdtree.cc"
+
+CMakeFiles/stitchingfaster.dir/lib/kdtree.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/lib/kdtree.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/kdtree.cc" > CMakeFiles/stitchingfaster.dir/lib/kdtree.cc.i
+
+CMakeFiles/stitchingfaster.dir/lib/kdtree.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/lib/kdtree.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/kdtree.cc" -o CMakeFiles/stitchingfaster.dir/lib/kdtree.cc.s
+
+CMakeFiles/stitchingfaster.dir/lib/kdtree.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/lib/kdtree.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/lib/kdtree.cc.o.provides: CMakeFiles/stitchingfaster.dir/lib/kdtree.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/lib/kdtree.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/lib/kdtree.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/lib/kdtree.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/lib/kdtree.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/lib/matrix.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/lib/matrix.cc.o: ../lib/matrix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/stitchingfaster.dir/lib/matrix.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/lib/matrix.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/matrix.cc"
+
+CMakeFiles/stitchingfaster.dir/lib/matrix.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/lib/matrix.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/matrix.cc" > CMakeFiles/stitchingfaster.dir/lib/matrix.cc.i
+
+CMakeFiles/stitchingfaster.dir/lib/matrix.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/lib/matrix.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/matrix.cc" -o CMakeFiles/stitchingfaster.dir/lib/matrix.cc.s
+
+CMakeFiles/stitchingfaster.dir/lib/matrix.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/lib/matrix.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/lib/matrix.cc.o.provides: CMakeFiles/stitchingfaster.dir/lib/matrix.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/lib/matrix.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/lib/matrix.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/lib/matrix.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/lib/matrix.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/lib/planedrawer.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/lib/planedrawer.cc.o: ../lib/planedrawer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/stitchingfaster.dir/lib/planedrawer.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/lib/planedrawer.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/planedrawer.cc"
+
+CMakeFiles/stitchingfaster.dir/lib/planedrawer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/lib/planedrawer.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/planedrawer.cc" > CMakeFiles/stitchingfaster.dir/lib/planedrawer.cc.i
+
+CMakeFiles/stitchingfaster.dir/lib/planedrawer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/lib/planedrawer.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/planedrawer.cc" -o CMakeFiles/stitchingfaster.dir/lib/planedrawer.cc.s
+
+CMakeFiles/stitchingfaster.dir/lib/planedrawer.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/lib/planedrawer.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/lib/planedrawer.cc.o.provides: CMakeFiles/stitchingfaster.dir/lib/planedrawer.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/lib/planedrawer.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/lib/planedrawer.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/lib/planedrawer.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/lib/planedrawer.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/lib/polygon.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/lib/polygon.cc.o: ../lib/polygon.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/stitchingfaster.dir/lib/polygon.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/lib/polygon.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/polygon.cc"
+
+CMakeFiles/stitchingfaster.dir/lib/polygon.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/lib/polygon.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/polygon.cc" > CMakeFiles/stitchingfaster.dir/lib/polygon.cc.i
+
+CMakeFiles/stitchingfaster.dir/lib/polygon.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/lib/polygon.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/polygon.cc" -o CMakeFiles/stitchingfaster.dir/lib/polygon.cc.s
+
+CMakeFiles/stitchingfaster.dir/lib/polygon.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/lib/polygon.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/lib/polygon.cc.o.provides: CMakeFiles/stitchingfaster.dir/lib/polygon.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/lib/polygon.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/lib/polygon.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/lib/polygon.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/lib/polygon.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/lib/timer.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/lib/timer.cc.o: ../lib/timer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/stitchingfaster.dir/lib/timer.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/lib/timer.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/timer.cc"
+
+CMakeFiles/stitchingfaster.dir/lib/timer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/lib/timer.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/timer.cc" > CMakeFiles/stitchingfaster.dir/lib/timer.cc.i
+
+CMakeFiles/stitchingfaster.dir/lib/timer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/lib/timer.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/timer.cc" -o CMakeFiles/stitchingfaster.dir/lib/timer.cc.s
+
+CMakeFiles/stitchingfaster.dir/lib/timer.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/lib/timer.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/lib/timer.cc.o.provides: CMakeFiles/stitchingfaster.dir/lib/timer.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/lib/timer.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/lib/timer.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/lib/timer.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/lib/timer.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/lib/utils.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/lib/utils.cc.o: ../lib/utils.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/stitchingfaster.dir/lib/utils.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/lib/utils.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/utils.cc"
+
+CMakeFiles/stitchingfaster.dir/lib/utils.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/lib/utils.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/utils.cc" > CMakeFiles/stitchingfaster.dir/lib/utils.cc.i
+
+CMakeFiles/stitchingfaster.dir/lib/utils.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/lib/utils.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/utils.cc" -o CMakeFiles/stitchingfaster.dir/lib/utils.cc.s
+
+CMakeFiles/stitchingfaster.dir/lib/utils.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/lib/utils.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/lib/utils.cc.o.provides: CMakeFiles/stitchingfaster.dir/lib/utils.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/lib/utils.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/lib/utils.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/lib/utils.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/lib/utils.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/stitch/blender.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/stitch/blender.cc.o: ../stitch/blender.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/stitchingfaster.dir/stitch/blender.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/stitch/blender.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/blender.cc"
+
+CMakeFiles/stitchingfaster.dir/stitch/blender.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/stitch/blender.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/blender.cc" > CMakeFiles/stitchingfaster.dir/stitch/blender.cc.i
+
+CMakeFiles/stitchingfaster.dir/stitch/blender.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/stitch/blender.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/blender.cc" -o CMakeFiles/stitchingfaster.dir/stitch/blender.cc.s
+
+CMakeFiles/stitchingfaster.dir/stitch/blender.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/blender.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/stitch/blender.cc.o.provides: CMakeFiles/stitchingfaster.dir/stitch/blender.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/stitch/blender.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/blender.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/stitch/blender.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/stitch/blender.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/stitch/camera.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/stitch/camera.cc.o: ../stitch/camera.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/stitchingfaster.dir/stitch/camera.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/stitch/camera.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/camera.cc"
+
+CMakeFiles/stitchingfaster.dir/stitch/camera.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/stitch/camera.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/camera.cc" > CMakeFiles/stitchingfaster.dir/stitch/camera.cc.i
+
+CMakeFiles/stitchingfaster.dir/stitch/camera.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/stitch/camera.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/camera.cc" -o CMakeFiles/stitchingfaster.dir/stitch/camera.cc.s
+
+CMakeFiles/stitchingfaster.dir/stitch/camera.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/camera.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/stitch/camera.cc.o.provides: CMakeFiles/stitchingfaster.dir/stitch/camera.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/stitch/camera.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/camera.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/stitch/camera.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/stitch/camera.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/stitch/camera_estimator.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/stitch/camera_estimator.cc.o: ../stitch/camera_estimator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/stitchingfaster.dir/stitch/camera_estimator.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/stitch/camera_estimator.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/camera_estimator.cc"
+
+CMakeFiles/stitchingfaster.dir/stitch/camera_estimator.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/stitch/camera_estimator.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/camera_estimator.cc" > CMakeFiles/stitchingfaster.dir/stitch/camera_estimator.cc.i
+
+CMakeFiles/stitchingfaster.dir/stitch/camera_estimator.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/stitch/camera_estimator.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/camera_estimator.cc" -o CMakeFiles/stitchingfaster.dir/stitch/camera_estimator.cc.s
+
+CMakeFiles/stitchingfaster.dir/stitch/camera_estimator.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/camera_estimator.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/stitch/camera_estimator.cc.o.provides: CMakeFiles/stitchingfaster.dir/stitch/camera_estimator.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/stitch/camera_estimator.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/camera_estimator.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/stitch/camera_estimator.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/stitch/camera_estimator.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/stitch/cylstitcher.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/stitch/cylstitcher.cc.o: ../stitch/cylstitcher.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/stitchingfaster.dir/stitch/cylstitcher.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/stitch/cylstitcher.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/cylstitcher.cc"
+
+CMakeFiles/stitchingfaster.dir/stitch/cylstitcher.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/stitch/cylstitcher.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/cylstitcher.cc" > CMakeFiles/stitchingfaster.dir/stitch/cylstitcher.cc.i
+
+CMakeFiles/stitchingfaster.dir/stitch/cylstitcher.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/stitch/cylstitcher.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/cylstitcher.cc" -o CMakeFiles/stitchingfaster.dir/stitch/cylstitcher.cc.s
+
+CMakeFiles/stitchingfaster.dir/stitch/cylstitcher.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/cylstitcher.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/stitch/cylstitcher.cc.o.provides: CMakeFiles/stitchingfaster.dir/stitch/cylstitcher.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/stitch/cylstitcher.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/cylstitcher.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/stitch/cylstitcher.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/stitch/cylstitcher.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/stitch/debug.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/stitch/debug.cc.o: ../stitch/debug.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/stitchingfaster.dir/stitch/debug.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/stitch/debug.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/debug.cc"
+
+CMakeFiles/stitchingfaster.dir/stitch/debug.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/stitch/debug.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/debug.cc" > CMakeFiles/stitchingfaster.dir/stitch/debug.cc.i
+
+CMakeFiles/stitchingfaster.dir/stitch/debug.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/stitch/debug.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/debug.cc" -o CMakeFiles/stitchingfaster.dir/stitch/debug.cc.s
+
+CMakeFiles/stitchingfaster.dir/stitch/debug.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/debug.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/stitch/debug.cc.o.provides: CMakeFiles/stitchingfaster.dir/stitch/debug.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/stitch/debug.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/debug.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/stitch/debug.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/stitch/debug.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/stitch/homography.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/stitch/homography.cc.o: ../stitch/homography.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/stitchingfaster.dir/stitch/homography.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/stitch/homography.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/homography.cc"
+
+CMakeFiles/stitchingfaster.dir/stitch/homography.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/stitch/homography.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/homography.cc" > CMakeFiles/stitchingfaster.dir/stitch/homography.cc.i
+
+CMakeFiles/stitchingfaster.dir/stitch/homography.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/stitch/homography.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/homography.cc" -o CMakeFiles/stitchingfaster.dir/stitch/homography.cc.s
+
+CMakeFiles/stitchingfaster.dir/stitch/homography.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/homography.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/stitch/homography.cc.o.provides: CMakeFiles/stitchingfaster.dir/stitch/homography.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/stitch/homography.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/homography.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/stitch/homography.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/stitch/homography.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/stitch/incremental_bundle_adjuster.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/stitch/incremental_bundle_adjuster.cc.o: ../stitch/incremental_bundle_adjuster.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/stitchingfaster.dir/stitch/incremental_bundle_adjuster.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/stitch/incremental_bundle_adjuster.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/incremental_bundle_adjuster.cc"
+
+CMakeFiles/stitchingfaster.dir/stitch/incremental_bundle_adjuster.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/stitch/incremental_bundle_adjuster.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/incremental_bundle_adjuster.cc" > CMakeFiles/stitchingfaster.dir/stitch/incremental_bundle_adjuster.cc.i
+
+CMakeFiles/stitchingfaster.dir/stitch/incremental_bundle_adjuster.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/stitch/incremental_bundle_adjuster.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/incremental_bundle_adjuster.cc" -o CMakeFiles/stitchingfaster.dir/stitch/incremental_bundle_adjuster.cc.s
+
+CMakeFiles/stitchingfaster.dir/stitch/incremental_bundle_adjuster.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/incremental_bundle_adjuster.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/stitch/incremental_bundle_adjuster.cc.o.provides: CMakeFiles/stitchingfaster.dir/stitch/incremental_bundle_adjuster.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/stitch/incremental_bundle_adjuster.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/incremental_bundle_adjuster.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/stitch/incremental_bundle_adjuster.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/stitch/incremental_bundle_adjuster.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/stitch/multiband.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/stitch/multiband.cc.o: ../stitch/multiband.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/stitchingfaster.dir/stitch/multiband.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/stitch/multiband.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/multiband.cc"
+
+CMakeFiles/stitchingfaster.dir/stitch/multiband.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/stitch/multiband.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/multiband.cc" > CMakeFiles/stitchingfaster.dir/stitch/multiband.cc.i
+
+CMakeFiles/stitchingfaster.dir/stitch/multiband.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/stitch/multiband.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/multiband.cc" -o CMakeFiles/stitchingfaster.dir/stitch/multiband.cc.s
+
+CMakeFiles/stitchingfaster.dir/stitch/multiband.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/multiband.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/stitch/multiband.cc.o.provides: CMakeFiles/stitchingfaster.dir/stitch/multiband.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/stitch/multiband.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/multiband.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/stitch/multiband.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/stitch/multiband.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/stitch/stitcher.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/stitch/stitcher.cc.o: ../stitch/stitcher.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/stitchingfaster.dir/stitch/stitcher.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/stitch/stitcher.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcher.cc"
+
+CMakeFiles/stitchingfaster.dir/stitch/stitcher.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/stitch/stitcher.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcher.cc" > CMakeFiles/stitchingfaster.dir/stitch/stitcher.cc.i
+
+CMakeFiles/stitchingfaster.dir/stitch/stitcher.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/stitch/stitcher.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcher.cc" -o CMakeFiles/stitchingfaster.dir/stitch/stitcher.cc.s
+
+CMakeFiles/stitchingfaster.dir/stitch/stitcher.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/stitcher.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/stitch/stitcher.cc.o.provides: CMakeFiles/stitchingfaster.dir/stitch/stitcher.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/stitch/stitcher.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/stitcher.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/stitch/stitcher.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/stitch/stitcher.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/stitch/stitcher_image.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/stitch/stitcher_image.cc.o: ../stitch/stitcher_image.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/stitchingfaster.dir/stitch/stitcher_image.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/stitch/stitcher_image.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcher_image.cc"
+
+CMakeFiles/stitchingfaster.dir/stitch/stitcher_image.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/stitch/stitcher_image.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcher_image.cc" > CMakeFiles/stitchingfaster.dir/stitch/stitcher_image.cc.i
+
+CMakeFiles/stitchingfaster.dir/stitch/stitcher_image.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/stitch/stitcher_image.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcher_image.cc" -o CMakeFiles/stitchingfaster.dir/stitch/stitcher_image.cc.s
+
+CMakeFiles/stitchingfaster.dir/stitch/stitcher_image.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/stitcher_image.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/stitch/stitcher_image.cc.o.provides: CMakeFiles/stitchingfaster.dir/stitch/stitcher_image.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/stitch/stitcher_image.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/stitcher_image.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/stitch/stitcher_image.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/stitch/stitcher_image.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/stitch/stitcherbase.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/stitch/stitcherbase.cc.o: ../stitch/stitcherbase.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/stitchingfaster.dir/stitch/stitcherbase.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/stitch/stitcherbase.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcherbase.cc"
+
+CMakeFiles/stitchingfaster.dir/stitch/stitcherbase.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/stitch/stitcherbase.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcherbase.cc" > CMakeFiles/stitchingfaster.dir/stitch/stitcherbase.cc.i
+
+CMakeFiles/stitchingfaster.dir/stitch/stitcherbase.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/stitch/stitcherbase.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcherbase.cc" -o CMakeFiles/stitchingfaster.dir/stitch/stitcherbase.cc.s
+
+CMakeFiles/stitchingfaster.dir/stitch/stitcherbase.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/stitcherbase.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/stitch/stitcherbase.cc.o.provides: CMakeFiles/stitchingfaster.dir/stitch/stitcherbase.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/stitch/stitcherbase.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/stitcherbase.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/stitch/stitcherbase.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/stitch/stitcherbase.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/stitch/transform_estimate.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/stitch/transform_estimate.cc.o: ../stitch/transform_estimate.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/stitchingfaster.dir/stitch/transform_estimate.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/stitch/transform_estimate.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/transform_estimate.cc"
+
+CMakeFiles/stitchingfaster.dir/stitch/transform_estimate.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/stitch/transform_estimate.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/transform_estimate.cc" > CMakeFiles/stitchingfaster.dir/stitch/transform_estimate.cc.i
+
+CMakeFiles/stitchingfaster.dir/stitch/transform_estimate.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/stitch/transform_estimate.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/transform_estimate.cc" -o CMakeFiles/stitchingfaster.dir/stitch/transform_estimate.cc.s
+
+CMakeFiles/stitchingfaster.dir/stitch/transform_estimate.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/transform_estimate.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/stitch/transform_estimate.cc.o.provides: CMakeFiles/stitchingfaster.dir/stitch/transform_estimate.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/stitch/transform_estimate.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/transform_estimate.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/stitch/transform_estimate.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/stitch/transform_estimate.cc.o
+
+
+CMakeFiles/stitchingfaster.dir/stitch/warp.cc.o: CMakeFiles/stitchingfaster.dir/flags.make
+CMakeFiles/stitchingfaster.dir/stitch/warp.cc.o: ../stitch/warp.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/stitchingfaster.dir/stitch/warp.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stitchingfaster.dir/stitch/warp.cc.o -c "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/warp.cc"
+
+CMakeFiles/stitchingfaster.dir/stitch/warp.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stitchingfaster.dir/stitch/warp.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/warp.cc" > CMakeFiles/stitchingfaster.dir/stitch/warp.cc.i
+
+CMakeFiles/stitchingfaster.dir/stitch/warp.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stitchingfaster.dir/stitch/warp.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/warp.cc" -o CMakeFiles/stitchingfaster.dir/stitch/warp.cc.s
+
+CMakeFiles/stitchingfaster.dir/stitch/warp.cc.o.requires:
+
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/warp.cc.o.requires
+
+CMakeFiles/stitchingfaster.dir/stitch/warp.cc.o.provides: CMakeFiles/stitchingfaster.dir/stitch/warp.cc.o.requires
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/stitch/warp.cc.o.provides.build
+.PHONY : CMakeFiles/stitchingfaster.dir/stitch/warp.cc.o.provides
+
+CMakeFiles/stitchingfaster.dir/stitch/warp.cc.o.provides.build: CMakeFiles/stitchingfaster.dir/stitch/warp.cc.o
+
+
 # Object files for target stitchingfaster
 stitchingfaster_OBJECTS = \
-"CMakeFiles/stitchingfaster.dir/main.cc.o"
+"CMakeFiles/stitchingfaster.dir/main.cc.o" \
+"CMakeFiles/stitchingfaster.dir/feature/brief.cc.o" \
+"CMakeFiles/stitchingfaster.dir/feature/dist.cc.o" \
+"CMakeFiles/stitchingfaster.dir/feature/dog.cc.o" \
+"CMakeFiles/stitchingfaster.dir/feature/extrema.cc.o" \
+"CMakeFiles/stitchingfaster.dir/feature/feature.cc.o" \
+"CMakeFiles/stitchingfaster.dir/feature/gaussian.cc.o" \
+"CMakeFiles/stitchingfaster.dir/feature/matcher.cc.o" \
+"CMakeFiles/stitchingfaster.dir/feature/orientation.cc.o" \
+"CMakeFiles/stitchingfaster.dir/feature/sift.cc.o" \
+"CMakeFiles/stitchingfaster.dir/lib/color.cc.o" \
+"CMakeFiles/stitchingfaster.dir/lib/config.cc.o" \
+"CMakeFiles/stitchingfaster.dir/lib/debugutils.cc.o" \
+"CMakeFiles/stitchingfaster.dir/lib/imgio.cc.o" \
+"CMakeFiles/stitchingfaster.dir/lib/imgproc.cc.o" \
+"CMakeFiles/stitchingfaster.dir/lib/kdtree.cc.o" \
+"CMakeFiles/stitchingfaster.dir/lib/matrix.cc.o" \
+"CMakeFiles/stitchingfaster.dir/lib/planedrawer.cc.o" \
+"CMakeFiles/stitchingfaster.dir/lib/polygon.cc.o" \
+"CMakeFiles/stitchingfaster.dir/lib/timer.cc.o" \
+"CMakeFiles/stitchingfaster.dir/lib/utils.cc.o" \
+"CMakeFiles/stitchingfaster.dir/stitch/blender.cc.o" \
+"CMakeFiles/stitchingfaster.dir/stitch/camera.cc.o" \
+"CMakeFiles/stitchingfaster.dir/stitch/camera_estimator.cc.o" \
+"CMakeFiles/stitchingfaster.dir/stitch/cylstitcher.cc.o" \
+"CMakeFiles/stitchingfaster.dir/stitch/debug.cc.o" \
+"CMakeFiles/stitchingfaster.dir/stitch/homography.cc.o" \
+"CMakeFiles/stitchingfaster.dir/stitch/incremental_bundle_adjuster.cc.o" \
+"CMakeFiles/stitchingfaster.dir/stitch/multiband.cc.o" \
+"CMakeFiles/stitchingfaster.dir/stitch/stitcher.cc.o" \
+"CMakeFiles/stitchingfaster.dir/stitch/stitcher_image.cc.o" \
+"CMakeFiles/stitchingfaster.dir/stitch/stitcherbase.cc.o" \
+"CMakeFiles/stitchingfaster.dir/stitch/transform_estimate.cc.o" \
+"CMakeFiles/stitchingfaster.dir/stitch/warp.cc.o"
 
 # External object files for target stitchingfaster
 stitchingfaster_EXTERNAL_OBJECTS =
 
 stitchingfaster: CMakeFiles/stitchingfaster.dir/main.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/feature/brief.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/feature/dist.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/feature/dog.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/feature/extrema.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/feature/feature.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/feature/gaussian.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/feature/matcher.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/feature/orientation.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/feature/sift.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/lib/color.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/lib/config.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/lib/debugutils.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/lib/imgio.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/lib/imgproc.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/lib/kdtree.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/lib/matrix.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/lib/planedrawer.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/lib/polygon.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/lib/timer.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/lib/utils.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/stitch/blender.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/stitch/camera.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/stitch/camera_estimator.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/stitch/cylstitcher.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/stitch/debug.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/stitch/homography.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/stitch/incremental_bundle_adjuster.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/stitch/multiband.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/stitch/stitcher.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/stitch/stitcher_image.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/stitch/stitcherbase.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/stitch/transform_estimate.cc.o
+stitchingfaster: CMakeFiles/stitchingfaster.dir/stitch/warp.cc.o
 stitchingfaster: CMakeFiles/stitchingfaster.dir/build.make
 stitchingfaster: /usr/lib/x86_64-linux-gnu/libjpeg.so
 stitchingfaster: third-party/liblodepng.a
 stitchingfaster: CMakeFiles/stitchingfaster.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable stitchingfaster"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX executable stitchingfaster"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stitchingfaster.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -102,6 +960,39 @@ CMakeFiles/stitchingfaster.dir/build: stitchingfaster
 .PHONY : CMakeFiles/stitchingfaster.dir/build
 
 CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/main.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/feature/brief.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/feature/dist.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/feature/dog.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/feature/extrema.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/feature/feature.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/feature/gaussian.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/feature/matcher.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/feature/orientation.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/feature/sift.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/lib/color.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/lib/config.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/lib/debugutils.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/lib/imgio.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/lib/imgproc.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/lib/kdtree.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/lib/matrix.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/lib/planedrawer.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/lib/polygon.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/lib/timer.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/lib/utils.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/stitch/blender.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/stitch/camera.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/stitch/camera_estimator.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/stitch/cylstitcher.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/stitch/debug.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/stitch/homography.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/stitch/incremental_bundle_adjuster.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/stitch/multiband.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/stitch/stitcher.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/stitch/stitcher_image.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/stitch/stitcherbase.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/stitch/transform_estimate.cc.o.requires
+CMakeFiles/stitchingfaster.dir/requires: CMakeFiles/stitchingfaster.dir/stitch/warp.cc.o.requires
 
 .PHONY : CMakeFiles/stitchingfaster.dir/requires
 
