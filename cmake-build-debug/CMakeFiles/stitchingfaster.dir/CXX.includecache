@@ -6,7 +6,853 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/Hao Bai/workspace/stitchingfaster/main.cpp
+..//feature/dist.hh
+limits
+-
+lib/debugutils.hh
+../feature/lib/debugutils.hh
+
+..//feature/feature.hh
+lib/config.hh
+../feature/lib/config.hh
+lib/mat.h
+../feature/lib/mat.h
+lib/geometry.hh
+../feature/lib/geometry.hh
+feature/dist.hh
+../feature/feature/dist.hh
+common/common.hh
+../feature/common/common.hh
+cstring
+-
+
+..//lib/debugutils.hh
+string
+-
+iterator
+-
+
+..//lib/matrix.hh
+ostream
+-
+mat.h
+../lib/mat.h
+
+..//lib/utils.hh
+cstdarg
+-
+cstdlib
+-
+string
+-
+cstring
+-
+sstream
+-
+memory
+-
+sys/stat.h
+-
+type_traits
+-
+
+../third-party/flann/algorithms/all_indices.h
+flann/general.h
+../third-party/flann/algorithms/flann/general.h
+flann/algorithms/nn_index.h
+../third-party/flann/algorithms/flann/algorithms/nn_index.h
+flann/algorithms/kdtree_index.h
+../third-party/flann/algorithms/flann/algorithms/kdtree_index.h
+flann/algorithms/kdtree_single_index.h
+../third-party/flann/algorithms/flann/algorithms/kdtree_single_index.h
+flann/algorithms/kmeans_index.h
+../third-party/flann/algorithms/flann/algorithms/kmeans_index.h
+flann/algorithms/composite_index.h
+../third-party/flann/algorithms/flann/algorithms/composite_index.h
+flann/algorithms/linear_index.h
+../third-party/flann/algorithms/flann/algorithms/linear_index.h
+flann/algorithms/hierarchical_clustering_index.h
+../third-party/flann/algorithms/flann/algorithms/hierarchical_clustering_index.h
+flann/algorithms/lsh_index.h
+../third-party/flann/algorithms/flann/algorithms/lsh_index.h
+flann/algorithms/autotuned_index.h
+../third-party/flann/algorithms/flann/algorithms/autotuned_index.h
+flann/algorithms/kdtree_cuda_3d_index.h
+../third-party/flann/algorithms/flann/algorithms/kdtree_cuda_3d_index.h
+
+../third-party/flann/algorithms/autotuned_index.h
+flann/general.h
+../third-party/flann/algorithms/flann/general.h
+flann/algorithms/nn_index.h
+../third-party/flann/algorithms/flann/algorithms/nn_index.h
+flann/nn/ground_truth.h
+../third-party/flann/algorithms/flann/nn/ground_truth.h
+flann/nn/index_testing.h
+../third-party/flann/algorithms/flann/nn/index_testing.h
+flann/util/sampling.h
+../third-party/flann/algorithms/flann/util/sampling.h
+flann/algorithms/kdtree_index.h
+../third-party/flann/algorithms/flann/algorithms/kdtree_index.h
+flann/algorithms/kdtree_single_index.h
+../third-party/flann/algorithms/flann/algorithms/kdtree_single_index.h
+flann/algorithms/kmeans_index.h
+../third-party/flann/algorithms/flann/algorithms/kmeans_index.h
+flann/algorithms/composite_index.h
+../third-party/flann/algorithms/flann/algorithms/composite_index.h
+flann/algorithms/linear_index.h
+../third-party/flann/algorithms/flann/algorithms/linear_index.h
+flann/util/logger.h
+../third-party/flann/algorithms/flann/util/logger.h
+
+../third-party/flann/algorithms/center_chooser.h
+flann/util/matrix.h
+-
+
+../third-party/flann/algorithms/composite_index.h
+flann/general.h
+../third-party/flann/algorithms/flann/general.h
+flann/algorithms/nn_index.h
+../third-party/flann/algorithms/flann/algorithms/nn_index.h
+flann/algorithms/kdtree_index.h
+../third-party/flann/algorithms/flann/algorithms/kdtree_index.h
+flann/algorithms/kmeans_index.h
+../third-party/flann/algorithms/flann/algorithms/kmeans_index.h
+
+../third-party/flann/algorithms/dist.h
+cmath
+-
+cstdlib
+-
+string.h
+-
+stdint.h
+-
+flann/defines.h
+../third-party/flann/algorithms/flann/defines.h
+
+../third-party/flann/algorithms/hierarchical_clustering_index.h
+algorithm
+-
+string
+-
+map
+-
+cassert
+-
+limits
+-
+cmath
+-
+flann/general.h
+../third-party/flann/algorithms/flann/general.h
+flann/algorithms/nn_index.h
+../third-party/flann/algorithms/flann/algorithms/nn_index.h
+flann/algorithms/dist.h
+../third-party/flann/algorithms/flann/algorithms/dist.h
+flann/util/matrix.h
+../third-party/flann/algorithms/flann/util/matrix.h
+flann/util/result_set.h
+../third-party/flann/algorithms/flann/util/result_set.h
+flann/util/heap.h
+../third-party/flann/algorithms/flann/util/heap.h
+flann/util/allocator.h
+../third-party/flann/algorithms/flann/util/allocator.h
+flann/util/random.h
+../third-party/flann/algorithms/flann/util/random.h
+flann/util/saving.h
+../third-party/flann/algorithms/flann/util/saving.h
+flann/util/serialization.h
+../third-party/flann/algorithms/flann/util/serialization.h
+
+../third-party/flann/algorithms/kdtree_cuda_3d_index.h
+algorithm
+-
+map
+-
+cassert
+-
+cstring
+-
+flann/general.h
+../third-party/flann/algorithms/flann/general.h
+flann/algorithms/nn_index.h
+../third-party/flann/algorithms/flann/algorithms/nn_index.h
+flann/util/matrix.h
+../third-party/flann/algorithms/flann/util/matrix.h
+flann/util/result_set.h
+../third-party/flann/algorithms/flann/util/result_set.h
+flann/util/heap.h
+../third-party/flann/algorithms/flann/util/heap.h
+flann/util/allocator.h
+../third-party/flann/algorithms/flann/util/allocator.h
+flann/util/random.h
+../third-party/flann/algorithms/flann/util/random.h
+flann/util/saving.h
+../third-party/flann/algorithms/flann/util/saving.h
+flann/util/params.h
+../third-party/flann/algorithms/flann/util/params.h
+
+../third-party/flann/algorithms/kdtree_index.h
+algorithm
+-
+map
+-
+cassert
+-
+cmath
+-
+cstring
+-
+stdarg.h
+-
+flann/general.h
+../third-party/flann/algorithms/flann/general.h
+flann/algorithms/nn_index.h
+../third-party/flann/algorithms/flann/algorithms/nn_index.h
+flann/util/dynamic_bitset.h
+../third-party/flann/algorithms/flann/util/dynamic_bitset.h
+flann/util/matrix.h
+../third-party/flann/algorithms/flann/util/matrix.h
+flann/util/result_set.h
+../third-party/flann/algorithms/flann/util/result_set.h
+flann/util/heap.h
+../third-party/flann/algorithms/flann/util/heap.h
+flann/util/allocator.h
+../third-party/flann/algorithms/flann/util/allocator.h
+flann/util/random.h
+../third-party/flann/algorithms/flann/util/random.h
+flann/util/saving.h
+../third-party/flann/algorithms/flann/util/saving.h
+
+../third-party/flann/algorithms/kdtree_single_index.h
+algorithm
+-
+map
+-
+cassert
+-
+cstring
+-
+flann/general.h
+../third-party/flann/algorithms/flann/general.h
+flann/algorithms/nn_index.h
+../third-party/flann/algorithms/flann/algorithms/nn_index.h
+flann/util/matrix.h
+../third-party/flann/algorithms/flann/util/matrix.h
+flann/util/result_set.h
+../third-party/flann/algorithms/flann/util/result_set.h
+flann/util/heap.h
+../third-party/flann/algorithms/flann/util/heap.h
+flann/util/allocator.h
+../third-party/flann/algorithms/flann/util/allocator.h
+flann/util/random.h
+../third-party/flann/algorithms/flann/util/random.h
+flann/util/saving.h
+../third-party/flann/algorithms/flann/util/saving.h
+
+../third-party/flann/algorithms/kmeans_index.h
+algorithm
+-
+string
+-
+map
+-
+cassert
+-
+limits
+-
+cmath
+-
+flann/general.h
+../third-party/flann/algorithms/flann/general.h
+flann/algorithms/nn_index.h
+../third-party/flann/algorithms/flann/algorithms/nn_index.h
+flann/algorithms/dist.h
+../third-party/flann/algorithms/flann/algorithms/dist.h
+flann/algorithms/center_chooser.h
+-
+flann/util/matrix.h
+../third-party/flann/algorithms/flann/util/matrix.h
+flann/util/result_set.h
+../third-party/flann/algorithms/flann/util/result_set.h
+flann/util/heap.h
+../third-party/flann/algorithms/flann/util/heap.h
+flann/util/allocator.h
+../third-party/flann/algorithms/flann/util/allocator.h
+flann/util/random.h
+../third-party/flann/algorithms/flann/util/random.h
+flann/util/saving.h
+../third-party/flann/algorithms/flann/util/saving.h
+flann/util/logger.h
+../third-party/flann/algorithms/flann/util/logger.h
+
+../third-party/flann/algorithms/linear_index.h
+flann/general.h
+../third-party/flann/algorithms/flann/general.h
+flann/algorithms/nn_index.h
+../third-party/flann/algorithms/flann/algorithms/nn_index.h
+
+../third-party/flann/algorithms/lsh_index.h
+algorithm
+-
+cassert
+-
+cstring
+-
+map
+-
+vector
+-
+flann/general.h
+../third-party/flann/algorithms/flann/general.h
+flann/algorithms/nn_index.h
+../third-party/flann/algorithms/flann/algorithms/nn_index.h
+flann/util/matrix.h
+../third-party/flann/algorithms/flann/util/matrix.h
+flann/util/result_set.h
+../third-party/flann/algorithms/flann/util/result_set.h
+flann/util/heap.h
+../third-party/flann/algorithms/flann/util/heap.h
+flann/util/lsh_table.h
+../third-party/flann/algorithms/flann/util/lsh_table.h
+flann/util/allocator.h
+../third-party/flann/algorithms/flann/util/allocator.h
+flann/util/random.h
+../third-party/flann/algorithms/flann/util/random.h
+flann/util/saving.h
+../third-party/flann/algorithms/flann/util/saving.h
+
+../third-party/flann/algorithms/nn_index.h
+vector
+-
+flann/general.h
+../third-party/flann/algorithms/flann/general.h
+flann/util/matrix.h
+../third-party/flann/algorithms/flann/util/matrix.h
+flann/util/params.h
+../third-party/flann/algorithms/flann/util/params.h
+flann/util/result_set.h
+../third-party/flann/algorithms/flann/util/result_set.h
+flann/util/dynamic_bitset.h
+../third-party/flann/algorithms/flann/util/dynamic_bitset.h
+flann/util/saving.h
+../third-party/flann/algorithms/flann/util/saving.h
+
+../third-party/flann/config.h
+
+../third-party/flann/defines.h
+config.h
+../third-party/flann/config.h
+
+../third-party/flann/flann.hpp
+vector
+-
+string
+-
+cassert
+-
+cstdio
+-
+flann/general.h
+../third-party/flann/flann/general.h
+flann/util/matrix.h
+../third-party/flann/flann/util/matrix.h
+flann/util/params.h
+../third-party/flann/flann/util/params.h
+flann/util/saving.h
+../third-party/flann/flann/util/saving.h
+flann/algorithms/all_indices.h
+../third-party/flann/flann/algorithms/all_indices.h
+
+../third-party/flann/general.h
+defines.h
+../third-party/flann/defines.h
+stdexcept
+-
+cassert
+-
+limits.h
+-
+
+../third-party/flann/nn/ground_truth.h
+flann/algorithms/dist.h
+../third-party/flann/nn/flann/algorithms/dist.h
+flann/util/matrix.h
+../third-party/flann/nn/flann/util/matrix.h
+
+../third-party/flann/nn/index_testing.h
+cstring
+-
+cassert
+-
+cmath
+-
+flann/util/matrix.h
+../third-party/flann/nn/flann/util/matrix.h
+flann/algorithms/nn_index.h
+../third-party/flann/nn/flann/algorithms/nn_index.h
+flann/util/result_set.h
+../third-party/flann/nn/flann/util/result_set.h
+flann/util/logger.h
+../third-party/flann/nn/flann/util/logger.h
+flann/util/timer.h
+../third-party/flann/nn/flann/util/timer.h
+
+../third-party/flann/util/allocator.h
+stdlib.h
+-
+stdio.h
+-
+
+../third-party/flann/util/any.h
+stdexcept
+-
+ostream
+-
+typeinfo
+-
+
+../third-party/flann/util/dynamic_bitset.h
+boost/dynamic_bitset.hpp
+-
+limits.h
+-
+
+../third-party/flann/util/heap.h
+algorithm
+-
+vector
+-
+
+../third-party/flann/util/logger.h
+stdio.h
+-
+stdarg.h
+-
+flann/defines.h
+../third-party/flann/util/flann/defines.h
+
+../third-party/flann/util/lsh_table.h
+algorithm
+-
 iostream
 -
+iomanip
+-
+limits.h
+-
+unordered_map
+-
+map
+-
+math.h
+-
+stddef.h
+-
+flann/util/dynamic_bitset.h
+../third-party/flann/util/flann/util/dynamic_bitset.h
+flann/util/matrix.h
+../third-party/flann/util/flann/util/matrix.h
+
+../third-party/flann/util/matrix.h
+flann/general.h
+../third-party/flann/util/flann/general.h
+flann/util/serialization.h
+../third-party/flann/util/flann/util/serialization.h
+stdio.h
+-
+
+../third-party/flann/util/params.h
+any.h
+../third-party/flann/util/any.h
+flann/general.h
+../third-party/flann/util/flann/general.h
+iostream
+-
+map
+-
+
+../third-party/flann/util/random.h
+algorithm
+-
+cstdlib
+-
+cstddef
+-
+vector
+-
+flann/general.h
+../third-party/flann/util/flann/general.h
+
+../third-party/flann/util/result_set.h
+algorithm
+-
+cstring
+-
+iostream
+-
+limits
+-
+set
+-
+vector
+-
+
+../third-party/flann/util/sampling.h
+flann/util/matrix.h
+../third-party/flann/util/flann/util/matrix.h
+flann/util/random.h
+../third-party/flann/util/flann/util/random.h
+
+../third-party/flann/util/saving.h
+cstring
+-
+vector
+-
+stdio.h
+-
+flann/general.h
+../third-party/flann/util/flann/general.h
+flann/util/serialization.h
+../third-party/flann/util/flann/util/serialization.h
+
+../third-party/flann/util/serialization.h
+vector
+-
+map
+-
+stdio.h
+-
+
+../third-party/flann/util/timer.h
+time.h
+-
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/common/common.hh
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/dist.hh
+limits
+-
+lib/debugutils.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/lib/debugutils.hh
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/dog.hh
+vector
+-
+lib/mat.h
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/lib/mat.h
+lib/debugutils.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/lib/debugutils.hh
+lib/config.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/lib/config.hh
+common/common.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/common/common.hh
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/extrema.hh
+vector
+-
+dog.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/dog.hh
+lib/mat.h
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/lib/mat.h
+lib/geometry.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/lib/geometry.hh
+common/common.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/common/common.hh
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/feature.hh
+lib/config.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/lib/config.hh
+lib/mat.h
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/lib/mat.h
+lib/geometry.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/lib/geometry.hh
+feature/dist.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/feature/dist.hh
+common/common.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/common/common.hh
+cstring
+-
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/matcher.hh
+vector
+-
+flann/flann.hpp
+-
+feature.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/feature.hh
+dist.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/dist.hh
+common/common.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/common/common.hh
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/orientation.hh
+vector
+-
+dog.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/dog.hh
+common/common.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/common/common.hh
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/color.hh
+geometry.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/geometry.hh
+limits
+-
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/config.hh
+cmath
+-
+map
+-
+cstring
+-
+fstream
+-
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/debugutils.hh
+string
+-
+iterator
+-
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/geometry.hh
+vector
+-
+limits
+-
+algorithm
+-
+cmath
+-
+utils.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/utils.hh
+debugutils.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/debugutils.hh
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/imgproc.hh
+list
+-
+mat.h
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/mat.h
+color.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/color.hh
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/mat.h
+memory
+-
+cstring
+-
+lib/debugutils.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/lib/debugutils.hh
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/planedrawer.hh
+color.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/color.hh
+mat.h
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/mat.h
+polygon.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/polygon.hh
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/polygon.hh
+vector
+-
+utility
+-
+geometry.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/geometry.hh
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/timer.hh
+chrono
+-
+functional
+-
+map
+-
+iostream
+-
+string
+-
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/utils.hh
+cstdarg
+-
+cstdlib
+-
+string
+-
+cstring
+-
+sstream
+-
+memory
+-
+sys/stat.h
+-
+type_traits
+-
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/main.cc
+cmath
+-
+feature/extrema.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/extrema.hh
+feature/matcher.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/matcher.hh
+feature/orientation.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/feature/orientation.hh
+lib/mat.h
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/mat.h
+lib/config.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/config.hh
+lib/geometry.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/geometry.hh
+lib/imgproc.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/imgproc.hh
+lib/planedrawer.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/planedrawer.hh
+lib/polygon.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/polygon.hh
+lib/timer.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/lib/timer.hh
+stitch/cylstitcher.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/cylstitcher.hh
+stitch/match_info.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/match_info.hh
+stitch/stitcher.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcher.hh
+stitch/transform_estimate.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/transform_estimate.hh
+stitch/warp.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/warp.hh
+common/common.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/common/common.hh
+ctime
+-
+cassert
+-
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/cylstitcher.hh
+stitcherbase.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcherbase.hh
+stitcher_image.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcher_image.hh
+common/common.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/common/common.hh
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/homography.hh
+lib/matrix.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/lib/matrix.hh
+lib/geometry.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/lib/geometry.hh
+common/common.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/common/common.hh
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/imageref.hh
+string
+-
+memory
+-
+lib/mat.h
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/lib/mat.h
+lib/imgproc.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/lib/imgproc.hh
+match_info.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/match_info.hh
+common/common.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/common/common.hh
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/match_info.hh
+utility
+-
+vector
+-
+iostream
+-
+lib/geometry.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/lib/geometry.hh
+homography.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/homography.hh
+common/common.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/common/common.hh
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/projection.hh
+lib/geometry.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/lib/geometry.hh
+common/common.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/common/common.hh
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcher.hh
+memory
+-
+vector
+-
+lib/mat.h
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/lib/mat.h
+lib/utils.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/lib/utils.hh
+stitcher_image.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcher_image.hh
+stitcherbase.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcherbase.hh
+match_info.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/match_info.hh
+common/common.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/common/common.hh
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcher_image.hh
+vector
+-
+cassert
+-
+lib/mat.h
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/lib/mat.h
+projection.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/projection.hh
+homography.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/homography.hh
+imageref.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/imageref.hh
+common/common.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/common/common.hh
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/stitcherbase.hh
+vector
+-
+memory
+-
+lib/mat.h
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/lib/mat.h
+lib/geometry.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/lib/geometry.hh
+feature/feature.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/feature/feature.hh
+imageref.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/imageref.hh
+common/common.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/common/common.hh
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/transform_estimate.hh
+vector
+-
+lib/matrix.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/lib/matrix.hh
+lib/geometry.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/lib/geometry.hh
+match_info.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/match_info.hh
+common/common.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/common/common.hh
+
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/warp.hh
+lib/geometry.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/lib/geometry.hh
+lib/mat.h
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/lib/mat.h
+feature/feature.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/feature/feature.hh
+match_info.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/match_info.hh
+common/common.hh
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/common/common.hh
 

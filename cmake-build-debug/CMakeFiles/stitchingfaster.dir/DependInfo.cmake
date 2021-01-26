@@ -4,16 +4,25 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/main.cpp" "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles/stitchingfaster.dir/main.cpp.o"
+  "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/main.cc" "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles/stitchingfaster.dir/main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "DEBUG"
+  )
+
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../"
+  "/usr/include/eigen3"
+  "../third-party"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/third-party/CMakeFiles/lodepng.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

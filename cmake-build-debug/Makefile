@@ -123,32 +123,45 @@ stitchingfaster/fast:
 	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/build
 .PHONY : stitchingfaster/fast
 
-main.o: main.cpp.o
+#=============================================================================
+# Target rules for targets named lodepng
+
+# Build rule for target.
+lodepng: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lodepng
+.PHONY : lodepng
+
+# fast build rule for target.
+lodepng/fast:
+	$(MAKE) -f third-party/CMakeFiles/lodepng.dir/build.make third-party/CMakeFiles/lodepng.dir/build
+.PHONY : lodepng/fast
+
+main.o: main.cc.o
 
 .PHONY : main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/main.cpp.o
-.PHONY : main.cpp.o
+main.cc.o:
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/main.cc.o
+.PHONY : main.cc.o
 
-main.i: main.cpp.i
+main.i: main.cc.i
 
 .PHONY : main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/main.cpp.i
-.PHONY : main.cpp.i
+main.cc.i:
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/main.cc.i
+.PHONY : main.cc.i
 
-main.s: main.cpp.s
+main.s: main.cc.s
 
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/main.cpp.s
-.PHONY : main.cpp.s
+main.cc.s:
+	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/main.cc.s
+.PHONY : main.cc.s
 
 # Help Target
 help:
@@ -159,6 +172,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... stitchingfaster"
 	@echo "... edit_cache"
+	@echo "... lodepng"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

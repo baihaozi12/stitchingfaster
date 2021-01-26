@@ -1,1 +1,1 @@
-/usr/bin/g++   -fopenmp -g   CMakeFiles/stitchingfaster.dir/main.cpp.o  -o stitchingfaster 
+/usr/bin/g++   -std=c++11 -fopenmp -g  -rdynamic CMakeFiles/stitchingfaster.dir/main.cc.o  -o stitchingfaster -ljpeg third-party/liblodepng.a 

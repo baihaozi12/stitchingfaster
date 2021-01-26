@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/stitchingfaster.dir/main.cpp.o"
+  "CMakeFiles/stitchingfaster.dir/main.cc.o"
   "stitchingfaster.pdb"
   "stitchingfaster"
 )

@@ -33,7 +33,7 @@
       <paths name="WSL (3204745a-1b38-4b90-8127-056ef93e6972)">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/stitchingfaster" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

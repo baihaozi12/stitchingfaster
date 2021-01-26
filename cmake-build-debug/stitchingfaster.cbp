@@ -5,7 +5,7 @@
 		<Option title="stitchingfaster"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\;CMake Files\third-party\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug"/>
@@ -34,6 +34,10 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add directory="/mnt/c/Users/Hao Bai/workspace/stitchingfaster"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/third-party"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -57,6 +61,10 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add directory="/mnt/c/Users/Hao Bai/workspace/stitchingfaster"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/third-party"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -83,9 +91,67 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hao\ Bai/workspace/stitchingfaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="lodepng">
+				<Option output="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/third-party/liblodepng.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/third-party"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add directory="/mnt/c/Users/Hao Bai/workspace/stitchingfaster"/>
+					<Add directory="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/third-party"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hao\ Bai/workspace/stitchingfaster/cmake-build-debug/third-party/Makefile&quot;  VERBOSE=1 lodepng"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hao\ Bai/workspace/stitchingfaster/cmake-build-debug/third-party/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hao\ Bai/workspace/stitchingfaster/cmake-build-debug/third-party/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hao\ Bai/workspace/stitchingfaster/cmake-build-debug/third-party/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lodepng/fast">
+				<Option output="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/third-party/liblodepng.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/third-party"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add directory="/mnt/c/Users/Hao Bai/workspace/stitchingfaster"/>
+					<Add directory="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/third-party"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hao\ Bai/workspace/stitchingfaster/cmake-build-debug/third-party/Makefile&quot;  VERBOSE=1 lodepng/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hao\ Bai/workspace/stitchingfaster/cmake-build-debug/third-party/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hao\ Bai/workspace/stitchingfaster/cmake-build-debug/third-party/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hao\ Bai/workspace/stitchingfaster/cmake-build-debug/third-party/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/main.cpp">
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/main.cc">
 			<Option target="stitchingfaster"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/third-party/lodepng/lodepng.cc">
+			<Option target="lodepng"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/third-party/lodepng/lodepng.h">
+			<Option target="lodepng"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
@@ -98,6 +164,9 @@
 		</Unit>
 		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/../../../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hao Bai/workspace/stitchingfaster/third-party/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third-party\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
