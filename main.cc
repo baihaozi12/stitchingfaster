@@ -18,7 +18,7 @@
 #include "common/common.hh"
 #include <ctime>
 #include <cassert>
-
+#include <unistd.h>
 #ifdef DISABLE_JPEG
 #define IMGFILE(x) #x ".png"
 #else
@@ -31,7 +31,11 @@ using namespace config;
 void init_config() {
 #define CFG(x) \
 	x = Config.get(#x)
-    const char* config_file = "config.cfg";
+    char path[255];
+    getcwd(path,255);
+    cout<<"the path is "<<path<< endl;
+    // notice the config need to find the
+    const char* config_file = "../config.cfg";
     ConfigParser Config(config_file);
     CFG(CYLINDER);
     CFG(TRANS);
@@ -86,23 +90,41 @@ void init_config() {
 }
 
 int main() {
+    // our test program set config the order input to 1, we use sequence input
+    // CYLINDER to 0
+    // the config path is ../config because the debug and cmake folder is a subfolder in the project
     TotalTimerGlobalGuard _g;
     srand(time(NULL));
     init_config();
 
     std::cout << "Hello, World!" << std::endl;
-    vector<string> imgs = {"/home/baihao/jpg/1111111/ppt/1.jpg", "/home/baihao/jpg/1111111/ppt/2.jpg"};
+    vector<std::string> imgs = {"/home/baihao/jpg/jpg/1.jpeg",
+                                "/home/baihao/jpg/jpg/2.jpeg",
+                                "/home/baihao/jpg/jpg/3.jpeg",
+                                "/home/baihao/jpg/jpg/4.jpeg"};
     Mat32f res;
-    CYLINDER = 0;
     if (CYLINDER) {
+
         CylinderStitcher p(move(imgs));
-//        Stitcher p(move(imgs));
         res = p.build();
     } else {
+//        cout<< "stitch"<<endl;
         Stitcher p(move(imgs));
         res = p.build();
     }
 
+
+    CROP = false;
+    if (CROP) {
+        int oldw = res.width(), oldh = res.height();
+        res = crop(res);
+        print_debug("Crop from %dx%d to %dx%d\n", oldw, oldh, res.width(), res.height());
+    }
+    {
+        GuardedTimer tm("Writing image");
+        cout<<res.cols()<<endl;
+        write_rgb("/home/baihao/stitchingfaster/out.jpg", res);
+    }
 
 
     return 0;
