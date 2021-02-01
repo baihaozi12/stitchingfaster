@@ -124,6 +124,19 @@ stitchingfaster/fast:
 .PHONY : stitchingfaster/fast
 
 #=============================================================================
+# Target rules for targets named pylittlepussy
+
+# Build rule for target.
+pylittlepussy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pylittlepussy
+.PHONY : pylittlepussy
+
+# fast build rule for target.
+pylittlepussy/fast:
+	$(MAKE) -f CMakeFiles/pylittlepussy.dir/build.make CMakeFiles/pylittlepussy.dir/build
+.PHONY : pylittlepussy/fast
+
+#=============================================================================
 # Target rules for targets named lodepng
 
 # Build rule for target.
@@ -703,6 +716,33 @@ main.cc.s:
 	$(MAKE) -f CMakeFiles/stitchingfaster.dir/build.make CMakeFiles/stitchingfaster.dir/main.cc.s
 .PHONY : main.cc.s
 
+python/pybind.o: python/pybind.cc.o
+
+.PHONY : python/pybind.o
+
+# target to build an object file
+python/pybind.cc.o:
+	$(MAKE) -f CMakeFiles/pylittlepussy.dir/build.make CMakeFiles/pylittlepussy.dir/python/pybind.cc.o
+.PHONY : python/pybind.cc.o
+
+python/pybind.i: python/pybind.cc.i
+
+.PHONY : python/pybind.i
+
+# target to preprocess a source file
+python/pybind.cc.i:
+	$(MAKE) -f CMakeFiles/pylittlepussy.dir/build.make CMakeFiles/pylittlepussy.dir/python/pybind.cc.i
+.PHONY : python/pybind.cc.i
+
+python/pybind.s: python/pybind.cc.s
+
+.PHONY : python/pybind.s
+
+# target to generate assembly for a file
+python/pybind.cc.s:
+	$(MAKE) -f CMakeFiles/pylittlepussy.dir/build.make CMakeFiles/pylittlepussy.dir/python/pybind.cc.s
+.PHONY : python/pybind.cc.s
+
 stitch/blender.o: stitch/blender.cc.o
 
 .PHONY : stitch/blender.o
@@ -1061,8 +1101,9 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... stitchingfaster"
 	@echo "... edit_cache"
+	@echo "... stitchingfaster"
+	@echo "... pylittlepussy"
 	@echo "... lodepng"
 	@echo "... feature/brief.o"
 	@echo "... feature/brief.i"
@@ -1127,6 +1168,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... python/pybind.o"
+	@echo "... python/pybind.i"
+	@echo "... python/pybind.s"
 	@echo "... stitch/blender.o"
 	@echo "... stitch/blender.i"
 	@echo "... stitch/blender.s"

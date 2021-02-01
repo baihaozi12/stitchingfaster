@@ -63,7 +63,20 @@ Mat32f Stitcher::build() {
   print_debug("Using projection method: %d\n", bundle.proj_method);
   bundle.update_proj_range();
 //  bundle.component.at(0).homo_inv
-  return bundle.blend();
+//    homo_image2pointspace = bundle.component.at(0).homo_inv;
+  for(int i = 0; i<homo_image2pointspace.size();i++ ){
+      REP(j, 9) homo_image2pointspace[i][j] = bundle.component.at(i).homo[j];
+      REP(j, 9) homo_inv_pointspace2image[i][j] = bundle.component.at(i).homo_inv[j];
+  }
+    resolution_x = bundle.get_final_resolution().x;
+    resolution_y = bundle.get_final_resolution().y;
+    shape_center_x = imgs.at(0).shape().center().x;
+    shape_center_y = imgs.at(0).shape().center().y;
+    proj_range_min_x = bundle.proj_range.min.x;
+    proj_range_min_y = bundle.proj_range.min.y;
+//    proj_range_min_x = proj_range
+// proj_range_min_x,proj_range_min_y,
+    return bundle.blend();
 }
 
 bool Stitcher::match_image(

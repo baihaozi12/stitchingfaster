@@ -1331,6 +1331,8 @@ cassert
 -
 unistd.h
 -
+Eigen/Dense
+-
 
 /mnt/c/Users/Hao Bai/workspace/stitchingfaster/stitch/blender.cc
 blender.hh

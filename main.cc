@@ -19,6 +19,8 @@
 #include <ctime>
 #include <cassert>
 #include <unistd.h>
+#include <Eigen/Dense>
+//#include <opencv2/core.hpp>
 #ifdef DISABLE_JPEG
 #define IMGFILE(x) #x ".png"
 #else
@@ -89,7 +91,71 @@ void init_config() {
 #undef CFG
 }
 
+
+struct StitchResult{
+    std::string img_path;
+    Eigen::Matrix3f homo_inv;
+    double proj_range_min_x;
+    double proj_range_min_y;
+    double resolution_x;
+    double resolution_y;
+    double shape_center_x;
+    double shape_center_y;
+};
+
+vector<StitchResult> littile_pussy_stitching(vector<std::string> img_names, std::string output){
+    TotalTimerGlobalGuard _g;
+    srand(time(NULL));
+    init_config();
+
+    vector<StitchResult> stitch_result(img_names.size());
+    Mat32f res;
+    Stitcher p(move(img_names));
+    res = p.build();
+
+
+    for(int i = 0;i<p.homo_inv_pointspace2image.size();i++) {
+        Eigen::Matrix3f homo_inv;
+        stitch_result[i].homo_inv
+                << p.homo_inv_pointspace2image[i][0], p.homo_inv_pointspace2image[i][1], p.homo_inv_pointspace2image[i][2],
+                p.homo_inv_pointspace2image[i][3], p.homo_inv_pointspace2image[i][4], p.homo_inv_pointspace2image[i][5],
+                p.homo_inv_pointspace2image[i][6], p.homo_inv_pointspace2image[i][7], p.homo_inv_pointspace2image[i][8];
+        stitch_result[i].img_path = img_names.at(i);
+
+        stitch_result[i].proj_range_min_x = p.proj_range_min_x;
+        stitch_result[i].proj_range_min_y = p.proj_range_min_y;
+        stitch_result[i].resolution_x = p.resolution_x;
+        stitch_result[i].resolution_y = p.resolution_y;
+        stitch_result[i].shape_center_x = p.shape_center_x;
+        stitch_result[i].shape_center_y = p.shape_center_y;
+//        cout<< "proj_range_min_x  is " << p.proj_range_min_x <<endl;
+//        cout<< "proj_range_min_y  is " << p.proj_range_min_y <<endl;
+//        cout<< "resolution_x  is " << p.resolution_x <<endl;
+//        cout<< "resolution_y  is " << p.resolution_y <<endl;
+//        cout<< "shape_center_x  is " << p.shape_center_x <<endl;
+//        cout<< "shape_center_y  is " << p.shape_center_y <<endl;
+    }
+    write_rgb(output, res);
+    return stitch_result;
+}
+
+
+
 int main() {
+    vector<std::string> imgs = {"/home/baihao/jpg/jpg/1.jpeg",
+                                "/home/baihao/jpg/jpg/2.jpeg",
+                                "/home/baihao/jpg/jpg/3.jpeg",
+                                "/home/baihao/jpg/jpg/4.jpeg",
+                                "/home/baihao/jpg/jpg/5.jpeg",
+                                "/home/baihao/jpg/jpg/6.jpeg",
+                                "/home/baihao/jpg/jpg/7.jpeg",
+                                "/home/baihao/jpg/jpg/8.jpeg"};
+    std::string output = "/home/baihao/stitchingfaster/out.jpg";
+    std::vector<StitchResult> stitch_result = littile_pussy_stitching(imgs, output);
+
+}
+
+int main_() {
     // our test program set config the order input to 1, we use sequence input
     // CYLINDER to 0
     // the config path is ../config because the debug and cmake folder is a subfolder in the project
@@ -111,6 +177,36 @@ int main() {
 //        cout<< "stitch"<<endl;
         Stitcher p(move(imgs));
         res = p.build();
+//        cout<<<<endl;
+
+        vector<Eigen::Matrix3f> homo_inv_list;
+        vector<Eigen::Matrix3f> homo_list;
+        for(int i = 0;i<p.homo_inv_pointspace2image.size();i++){
+            Eigen::Matrix3f homo_inv;
+            homo_inv << p.homo_inv_pointspace2image[i][0],p.homo_inv_pointspace2image[i][1],p.homo_inv_pointspace2image[i][2],
+                    p.homo_inv_pointspace2image[i][3],p.homo_inv_pointspace2image[i][4],p.homo_inv_pointspace2image[i][5],
+                    p.homo_inv_pointspace2image[i][6],p.homo_inv_pointspace2image[i][7],p.homo_inv_pointspace2image[i][8];
+            cout<< "homo inv is " << homo_inv <<endl;
+            homo_inv_list.push_back(homo_inv);
+//            delete homo_inv;
+            Eigen::Matrix3f homo;
+            homo << p.homo_image2pointspace[i][0],p.homo_image2pointspace[i][1],p.homo_image2pointspace[i][2],
+                    p.homo_image2pointspace[i][3],p.homo_image2pointspace[i][4],p.homo_image2pointspace[i][5],
+                    p.homo_image2pointspace[i][6],p.homo_image2pointspace[i][7],p.homo_image2pointspace[i][8];
+            cout<< "homo  is " << homo <<endl;
+            homo_list.push_back(homo);
+
+            cout<< "proj_range_min_x  is " << p.proj_range_min_x <<endl;
+            cout<< "proj_range_min_y  is " << p.proj_range_min_y <<endl;
+            cout<< "resolution_x  is " << p.resolution_x <<endl;
+            cout<< "resolution_y  is " << p.resolution_y <<endl;
+            cout<< "shape_center_x  is " << p.shape_center_x <<endl;
+            cout<< "shape_center_y  is " << p.shape_center_y <<endl;
+
+        }
+
+
+//        cout<< "homo  is " << p.homo_image2pointspace[0][0]<<endl;
     }
 
 
@@ -122,7 +218,7 @@ int main() {
     }
     {
         GuardedTimer tm("Writing image");
-        cout<<res.cols()<<endl;
+
         write_rgb("/home/baihao/stitchingfaster/out.jpg", res);
     }
 

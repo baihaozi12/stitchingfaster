@@ -48,13 +48,26 @@ class Stitcher : public StitcherBase {
 		void dump_matchinfo(const char*) const;
 		void load_matchinfo(const char*);
 	public:
+
+        std::vector<std::vector<double>> homo_image2pointspace,homo_inv_pointspace2image;
+//        Vec2D resolution;
+        double shape_center_x, shape_center_y, proj_range_min_x,proj_range_min_y,resolution_x, resolution_y ;
+
 		template<typename U, typename X =
 			disable_if_same_or_derived<Stitcher, U>>
 			Stitcher(U&& i) : StitcherBase(std::forward<U>(i)) {
 				bundle.component.resize(imgs.size());
 				REP(i, imgs.size())
 					bundle.component[i].imgptr = &imgs[i];
+                int image_vector_size = imgs.size();
+                std::vector<double> homo = {0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0};
+                for(int j =0;j<image_vector_size;j++){
+
+                    homo_image2pointspace.push_back(homo);
+                    homo_inv_pointspace2image.push_back(homo);
+                }
 			}
+
 
 		virtual Mat32f build();
 };

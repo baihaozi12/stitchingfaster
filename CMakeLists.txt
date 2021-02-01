@@ -78,14 +78,20 @@ add_executable(stitchingfaster main.cc
         stitch/stitcherbase.cc stitch/stitcherbase.hh
         stitch/transform_estimate.cc stitch/transform_estimate.hh
         stitch/warp.cc stitch/warp.hh)
-
+find_package(OpenCV REQUIRED)
 #add_library(stitchingfaster ${SOURCES})	# TODO shared?
-target_link_libraries(stitchingfaster ${JPEG_LIBRARY} lodepng)
+target_link_libraries(stitchingfaster ${JPEG_LIBRARY}  lodepng)
 if (NOT JPEG_FOUND)
-    target_compile_definitions(stitchingfaster PUBLIC DISABLE_JPEG)
+    target_compile_definitions(stitchingfaster PUBLIC DISABLE_JPEG )
 #    target_compile_definitions(image-stitching PUBLIC DISABLE_JPEG)
 endif()
 find_package(PythonLibs)
+
+add_library(pylittlepussy SHARED python/pybind.cc)
+target_link_libraries(pylittlepussy openpano pybind11)
+target_include_directories(pylittlepussy SYSTEM
+            PRIVATE ${PYTHON_INCLUDE_DIRS}
+            )
 #if(PYTHONLIBS_FOUND AND BUILD_SHARED_LIBS)
 #    add_library(pyopenpano SHARED python/pybind.cc)
 #    target_link_libraries(pyopenpano openpano pybind11)

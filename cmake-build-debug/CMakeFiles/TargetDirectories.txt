@@ -1,6 +1,7 @@
 /mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles/stitchingfaster.dir
 /mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles/stitchingfaster.dir
+/mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/CMakeFiles/pylittlepussy.dir
 /mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/third-party/CMakeFiles/rebuild_cache.dir
 /mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/third-party/CMakeFiles/edit_cache.dir
 /mnt/c/Users/Hao Bai/workspace/stitchingfaster/cmake-build-debug/third-party/CMakeFiles/lodepng.dir

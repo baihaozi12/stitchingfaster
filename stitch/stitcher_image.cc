@@ -138,9 +138,11 @@ Mat32f ConnectedImages::blend() const {
     Coor top_left = scale_coor_to_img_coor(cur.range.min);
     Coor bottom_right = scale_coor_to_img_coor(cur.range.max);
 
-
+//      cout<<"top_left is " << top_left<<endl;
+//      cout<<"bottom_right is " << bottom_right<<endl;
     blender->add_image(top_left, bottom_right, *cur.imgptr,
         [=,&cur](Coor t) -> Vec2D {
+
           Vec2D c = Vec2D(t.x, t.y) * resolution + proj_range.min;
           Vec homo = proj2homo(Vec2D(c.x, c.y));
           Vec ret = cur.homo_inv.trans(homo);
@@ -148,6 +150,17 @@ Mat32f ConnectedImages::blend() const {
           if (ret.z < 0)
             return Vec2D{-10, -10};  // was projected to the other side of the lens, discard
           double denom = 1.0 / ret.z;
+//          std::cout << "ssssssssssssssssssssssss" <<std::endl;
+//
+//            cout<<"resolution is " << resolution<<endl;
+//            cout<<"homo is " << homo<<endl;
+//            cout<<"proj_range.min is " << proj_range.min<<endl;
+//            cout<<"Vec2D(t.x, t.y) is " << Vec2D(t.x, t.y)<<endl;
+//            c = Vec2D{ret.x*denom, ret.y*denom} + cur.imgptr->shape().center();
+//          std::cout<<"Vec2D x,y: " <<  Vec2D{ret.x, ret.y}<<std::endl;
+//            std::cout<<"cur.imgptr->shape().center(): " <<  cur.imgptr->shape().center() <<std::endl;
+//            std::cout<<"Vec2D 4results: " <<  c <<std::endl;
+//            std::cout << "ssssssssssssssssssssssss" <<std::endl;
           return Vec2D{ret.x*denom, ret.y*denom}
                 + cur.imgptr->shape().center();
         });
